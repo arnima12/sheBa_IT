@@ -17,8 +17,6 @@ const menuItems = <React.Fragment>
         <li><Link to="/about">About</Link></li>
         {user?.uid ?
             <>
-                <li><Link to="/dashboard">Dashboard</Link></li>
-                <li><Link to="/appointment">Appointment</Link></li>
                 <li><button onClick={handleLogout}>Sign Out</button></li>
             </>
             :
@@ -33,9 +31,6 @@ const menuItems = <React.Fragment>
           </label>
           <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
             <li><Link to="/allCourses">Courses</Link></li>
-            <li>
-              <Link to="">Classes</Link>
-            </li>
             <li><Link to="">Job Preparation</Link></li>
           </ul>
         </div>
