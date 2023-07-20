@@ -2,7 +2,6 @@ import { createBrowserRouter } from "react-router-dom";
 import Main from "../../../Layout/Main";
 import Home from "../../Home/Home/Home";
 import AllCourses from "../../ALLCourses/AllCourses";
-import AllLiveClasses from "../../AllLiveClasses/AllLiveClasses";
 import AllJobPreparation from "../../AllJobPreparation/AllJobPreparation";
 import SignIn from "../../SignIn/SignIn";
 import SignUp from "../../SignUp/SignUp";
@@ -21,10 +20,6 @@ const router = createBrowserRouter([
         {
             path: '/allCourses',
             element: <AllCourses />
-        },
-        {
-            path: '/allLiveClasses',
-            element: <AllLiveClasses />
         },
         {
             path: '/allJobPreparation',
