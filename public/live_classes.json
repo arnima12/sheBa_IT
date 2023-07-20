@@ -1,0 +1,61 @@
+[{
+    "_id": 1,
+    "name": "Photography Class",
+    "bgImage": "./assets/resize-1687260492963085178Live1.png",
+    "ratings": "4.9",
+    "star":"\u2605\u2605\u2605\u2605\u2605",
+    "people": "2456",
+    "position": "Photographer",
+    "person": "Ray Blackwood"
+},
+{
+    "_id": 2,
+    "name": "Digital Marketing Class",
+    "bgImage": "./assets/resize-16872605111289471854Live2.png",
+    "ratings": "4.9",
+    "star":"\u2605\u2605\u2605\u2605\u2605",
+    "people": "2456",
+    "position": "Photographer",
+    "person": "Ray Blackwood"
+},
+{
+    "_id": 3,
+    "name": "Business Development Class",
+    "bgImage": "./assets/resize-168726052486090003Live3.png",
+    "ratings": "4.9",
+    "star":"\u2605\u2605\u2605\u2605\u2605",
+    "people": "2456",
+    "position": "Photographer",
+    "person": "Ray Blackwood"
+},
+{
+    "_id": 4,
+    "name": "Business Development Class",
+    "bgImage": "./assets/resize-168726052486090003Live3.png",
+    "ratings": "4.9",
+    "star":"\u2605\u2605\u2605\u2605\u2605",
+    "people": "2456",
+    "position": "Photographer",
+    "person": "Ray Blackwood"
+},
+{
+    "_id": 5,
+    "name": "Business Development Class",
+    "bgImage": "./assets/resize-168726052486090003Live3.png",
+    "ratings": "4.9",
+    "star":"\u2605\u2605\u2605\u2605\u2605",
+    "people": "2456",
+    "position": "Photographer",
+    "person": "Ray Blackwood"
+},
+{
+    "_id": 6,
+    "name": "Business Development Class",
+    "bgImage": "./assets/resize-168726052486090003Live3.png",
+    "ratings": "4.9",
+    "star":"\u2605\u2605\u2605\u2605\u2605",
+    "people": "2456",
+    "position": "Photographer",
+    "person": "Ray Blackwood"
+}
+]

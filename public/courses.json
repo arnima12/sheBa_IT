@@ -1,0 +1,72 @@
+[{
+    "_id": 1,
+    "name": "UI/UX Masterclass",
+    "ratings": "4.9",
+    "star":"\u2605\u2605\u2605\u2605\u2605",
+    "people": "2456",
+    "person": "Joe Ray",
+    "price": "7000",
+    "link": "/uiClass"
+},
+{
+    "_id": 2,
+    "name": "Digital Marketing",
+    "ratings": "4.9",
+    "star": "\u2605\u2605\u2605\u2605\u2605",
+    "people":"6456",
+    "person": "Afsan Sheikh",
+    "price": "5000",
+    "link": "/digitalMarketing"
+},
+
+{
+    "_id": 3,
+    "name": "Web Design",
+    "ratings": "4.9",
+    "star": "\u2605\u2605\u2605\u2605\u2605",
+    "people":"12456",
+    "person": "Jafar Ali",
+    "price": "9000",
+    "link": "/webDesign"
+},
+{
+    "_id": 4,
+    "name": "Graphics",
+    "ratings": "4.9",
+    "star": "\u2605\u2605\u2605\u2605\u2605",
+    "people":"12456",
+    "person": "Jafar Ali",
+    "price": "9000",
+    "link": "/graphics"
+},
+{
+    "_id": 5,
+    "name": "Content Writing",
+    "ratings": "4.9",
+    "star": "\u2605\u2605\u2605\u2605\u2605",
+    "people":"12456",
+    "person": "Jafar Ali",
+    "price": "9000",
+    "link": "/contentWriting"
+},
+{
+    "_id": 6,
+    "name": "Photography",
+    "ratings": "4.9",
+    "star": "\u2605\u2605\u2605\u2605\u2605",
+    "people":"12456",
+    "person": "Jafar Ali",
+    "price": "9000",
+    "link": "/photography"
+},
+{
+    "_id": 7,
+    "name": "Artificial Intelligence",
+    "ratings": "4.9",
+    "star": "\u2605\u2605\u2605\u2605\u2605",
+    "people":"12456",
+    "person": "Jafar Ali",
+    "price": "9000",
+    "link": "/artificialIntelligence"
+}
+]

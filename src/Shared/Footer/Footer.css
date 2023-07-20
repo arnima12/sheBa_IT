@@ -1,0 +1,6 @@
+.horizontal {
+    content: "";
+    display: block;
+    border-top: 1px solid white;
+    margin-top: 4rem; 
+  }
