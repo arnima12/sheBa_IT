@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from "../../assets/Group 13.png"
+import logo from "../../assets/Group 19.png"
 import "./Footer.css";
 import {  TfiFacebook, TfiLinkedin} from "react-icons/tfi";
 import { BsInstagram } from "react-icons/bs";

@@ -50,7 +50,6 @@ const menuItems = <React.Fragment>
       <div className="flex gap-[50.07px]">
         <div className="flex gap-[48px] text-[14px] font-semibold">
           <Link to="/allCourses">Courses</Link>
-          <Link to="/allLiveClasses">Live Classes</Link>
           <Link to="/allJobPreparation">Job Preparation</Link>
         </div>
         <div className="flex gap-[40.63px]">

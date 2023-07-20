@@ -4,13 +4,13 @@ import 'animate.css';
 const Banner = () => {
   return (
     <div className="container mx-auto px-12 xl:h-[500px] overflowX-hidden">
-      <div className="hero-content flex-col lg:flex-row-reverse rounded-3xl overflowX-hidden" style={{ background: 'linear-gradient(135deg, #6B73FF 0%, #000DFF 100%)', margin: '0 -16px' }}>
+      <div className="hero-content flex-col lg:flex-row-reverse rounded-3xl overflowX-hidden" style={{ background: 'linear-gradient(135deg, #92FFC0 0%, #002661 100%)', margin: '0 -16px' }}>
         <img src={target} alt="banner" className="h-[420px] my-0 animate__animated animate__pulse animate__faster" />
         <div className="w-1/2 flex justify-center flex-col animate__animated animate__slideInDown">
           <h1 className="text-5xl font-bold text-white">Learn from The Best</h1>
           <p className="py-6 text-white text-justify">Master new skills and achieve your career goals with our comprehensive courses, interactive live classes, and personalized job preparation services. Join our online learning community today and take the first step towards a brighter future.</p>
           <div className="flex flex-row gap-4">
-            <button className="flex gap-2 font-bold border-0 text-white text-[12px] px-6 py-4 rounded-lg items-center" style={{ backgroundColor: "rgba(76, 115, 255, 1)" }}>
+            <button className="flex gap-2 font-bold border-0 text-white text-[12px] px-6 py-4 rounded-lg items-center" style={{ backgroundColor: "rgba(31, 84, 117, 1)" }}>
               <div>
                 Get Started
               </div>
