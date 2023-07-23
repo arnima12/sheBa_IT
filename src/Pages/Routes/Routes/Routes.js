@@ -8,6 +8,7 @@ import SignUp from "../../SignUp/SignUp";
 import UiClass from "../../ALLCourses/UiClass/UiClass";
 import ResetPassword from "../../SignIn/ResetPassword";
 import Profile from "../../Profile/Profile";
+import Courses from "../../Home/Courses/Courses";
 
 const router = createBrowserRouter([
 {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
         {
             path: '/allCourses',
             element: <AllCourses />
+        },
+        {
+            path: '/courses',
+            element: <Courses />
         },
         {
             path: '/allJobPreparation',
