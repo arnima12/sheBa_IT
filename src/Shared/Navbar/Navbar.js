@@ -51,6 +51,12 @@ const menuItems = <React.Fragment>
         <div className="flex gap-[48px] text-[14px] font-semibold">
           <Link to="/allCourses">Courses</Link>
           <Link to="/allJobPreparation">Job Preparation</Link>
+          {user?.uid?
+          <>
+          <Link to="/profile">My Profile</Link>
+          </>
+          :
+          <></>}
         </div>
         <div className="flex gap-[40.63px]">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">

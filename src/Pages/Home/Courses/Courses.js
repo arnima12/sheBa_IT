@@ -20,7 +20,7 @@ const Courses = () => {
             {courses.slice(0, 3).map(course => <Course key={course._id} course={course} />)}
            </div>
            <div className="flex justify-center mt-8">
-           <button className="flex gap-2 font-bold border-0 text-white text-[12px] px-6 py-4 rounded-lg items-center" style={{ background: 'linear-gradient(135deg, #6B73FF 0%, #000DFF 100%)'}}>
+           <button className="flex gap-2 font-bold border-0 text-white text-[12px] px-6 py-4 rounded-lg items-center" style={{ background: 'linear-gradient(135deg, #92FFC0 0%, #002661 100%)'}}>
            <div>
                 See All Courses 
               </div>

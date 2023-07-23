@@ -7,7 +7,7 @@ const Course = ({ course }) => {
        <Link to={link}>
        <div className="shadow-2xl h-[350px] rounded-2xl ">
             <div className="flex justify-end mr-4 mt-4 ">
-                    <div className="text-white px-4 py-2 rounded-lg" style={{ background: 'linear-gradient(135deg, #6B73FF 0%, #000DFF 100%)' }}>
+                    <div className="text-white px-4 py-2 rounded-lg" style={{ background: 'linear-gradient(135deg, #92FFC0 0%, #002661 100%)' }}>
                     Best Seller 
                     </div>
                 </div>

@@ -6,7 +6,7 @@ import {  TfiFacebook, TfiLinkedin} from "react-icons/tfi";
 import { BsInstagram } from "react-icons/bs";
 const Footer = () => {
     return (
-        <div className=" p-10 mb-44 text-white text-xs overflow-hidden" style={{ background: 'linear-gradient(135deg, #6B73FF 0%, #000DFF 100%)' }}>
+        <div className=" p-10 mb-44 text-white text-xs overflow-hidden" style={{ background: 'linear-gradient(135deg, #92FFC0 0%, #002661 100%)' }}>
   <footer className="footer grid grid-cols-2 lg:grid-cols-4">
   <div>
     <img src={logo} alt="SheBa Academy" className="w-40" />
