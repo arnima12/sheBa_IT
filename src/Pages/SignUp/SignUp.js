@@ -78,7 +78,7 @@ const SignUp = () => {
   }
   return (
     <div className="hero min-h-screen mb-16">
-      <div className="rounded-3xl w-[1000px] h-[850px] px-24 pb-12" style={{ background: 'linear-gradient(135deg, #6B73FF 0%, #000DFF 100%)', margin: '0 -16px' }}>
+      <div className="rounded-3xl w-[1000px] h-[850px] px-24 pb-12" style={{ background: 'linear-gradient(135deg, #92FFC0 0%, #002661 100%)', margin: '0 -16px' }}>
         <div className="w-[100%]" style={{
           backgroundImage: `url(${target})`,
           backgroundSize: 'contain',
@@ -140,7 +140,7 @@ const SignUp = () => {
                 {errors.address && <p className="text-red-500">{errors.address.message}</p>}
               </div>
             </div>
-            <input className="btn border-none text-white w-full mt-8 mb-24" type="submit" value="Sign up" style={{ backgroundColor: "rgba(76, 115, 255, 1)" }} />
+            <input className="btn border-none text-white w-full mt-8 mb-24" type="submit" value="Sign up" style={{ backgroundColor: "rgba(144, 253, 191, 1)" }} />
             {signUpError && <p className="text-red-500">{signUpError}</p>}
             <div className="flex justify-center">
               <select

@@ -42,13 +42,10 @@ const SignIn = () => {
             console.log(error.message);
             setLoginError(error.message);
         });
-
-
 }
-  
-  return (
+   return (
     <div className="container mx-auto px-32 xl:h-[600px] overflowX-hidden mb-24">
-      <div className="hero-content flex-col lg:flex-row rounded-3xl" style={{ background: 'linear-gradient(135deg, #6B73FF 0%, #000DFF 100%)', margin: '0 -16px' }}>
+      <div className="hero-content flex-col lg:flex-row rounded-3xl" style={{ background: 'linear-gradient(135deg, #92FFC0 0%, #002661 100%)', margin: '0 -16px' }}>
         <img src={target} alt="signup" className="h-[480px] my-0" />
         <div className="my-16">
           <h1 className="text-4xl font-bold text-white">Hey! Hello 👋</h1>
@@ -90,7 +87,7 @@ const SignIn = () => {
               </div>
             </div>
 
-            <input className="btn flex gap-2 font-bold border-0 text-white text-[12px] px-6 py-4 rounded-lg items-center" style={{backgroundColor: "rgba(76, 115, 255, 1)"}} type="submit" value="Sign In" />
+            <input className="btn flex gap-2 font-bold border-0 text-white text-[12px] px-6 py-4 rounded-lg items-center" style={{backgroundColor: "rgba(144, 253, 191, 1)"}} type="submit" value="Sign In" />
             <div>
                         {loginError && <p className="text-red-500">{loginError}</p>}
                     </div>
@@ -108,7 +105,7 @@ const SignIn = () => {
           </div>
         </div>
         
-          <button className="text-white py-2 flex items-center rounded-3xl px-8" style={{ background: 'linear-gradient(135deg, #6B73FF 0%, #000DFF 100%)'}}><Link to="/signUp">Create Account</Link></button>
+          <button className="text-white py-2 flex items-center rounded-3xl px-8" style={{ background: 'linear-gradient(135deg, #92FFC0 0%, #002661 100%)'}}><Link to="/signUp">Create Account</Link></button>
         
       </div>
     </div>
