@@ -16,12 +16,12 @@ const menuItems = <React.Fragment>
         <li><Link to="/allCourses">Courses</Link></li>
         <li><Link to="/allVideoClasses">Video Classes</Link></li>
         <li><Link to="/allJobPreparation">Job Preparation</Link></li>
-        {user?.uid?
+        {/* {user?.uid?
           <li>
           <Link to="/profile">My Profile</Link>
           </li>
           :
-          <></>}
+          <></>} */}
         
           
     </React.Fragment>
