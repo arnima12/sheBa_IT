@@ -3,7 +3,7 @@ import React from 'react';
 const UiClass = () => {
     return (
         <div>
-            
+            hello
         </div>
     );
 };

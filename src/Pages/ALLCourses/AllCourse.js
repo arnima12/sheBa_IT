@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const AllCourse = ({allCourse}) => {
-    const { name, star, ratings, people, person, price } = allCourse;
+    const { name, star, ratings, people, person, price,link } = allCourse;
     return (
         <div className="shadow-2xl h-[350px] rounded-2xl ">
             
@@ -21,6 +22,7 @@ const AllCourse = ({allCourse}) => {
             </div>
             <p className="font-normal text-xs">By <span className="underline">{person}</span></p>
             <p className="mt-8 text-3xl font-semibold">{price} BDT</p>
+            <button><Link to={link}>View</Link></button>
             </div>
         </div>
     );
