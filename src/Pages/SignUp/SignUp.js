@@ -31,8 +31,10 @@ const SignUp = () => {
         console.log("user", user);
 
         const userInfo = {
-          displayName: data.fullName
-
+          displayName: data.fullName,
+          email: data.email,
+          phoneNumber: data.phoneNumber,
+          address: data.address
         }
 
         console.log("userInfo", userInfo)
@@ -51,31 +53,20 @@ const SignUp = () => {
 
       })
   }
-  const storeUser = async (fullName, phoneNumber, email, password, address) => {
-    const user = { fullName, phoneNumber, email, password, address };
-
-    try {
-      const response = await fetch('http://localhost:5000/users', {
+  const storeUser = (fullName, phoneNumber,email,password,address) =>{
+    const user ={fullName, phoneNumber,email,password,address};
+    fetch('http://localhost:5000/signup', {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json',
+            'content-type': 'application/json'
         },
-        body: JSON.stringify(user),
-      });
-
-      if (response.ok) {
-        // User saved successfully
+        body: JSON.stringify(user)
+    })
+    .then(res => res.json())
+    .then(data =>{
         setCreatedUserEmail(email);
-      } else {
-        // Handle the error if user save failed
-        throw new Error('Failed to save user data');
-      }
-    } catch (error) {
-      console.log(error);
-      // Handle the error
-      setSignUpError('Failed to save user data');
-    }
-  }
+    })
+}
   return (
     <div className="hero min-h-screen mb-16">
       <div className="rounded-3xl w-[1000px] h-[850px] px-24 pb-12" style={{ background: 'linear-gradient(135deg, #92FFC0 0%, #002661 100%)', margin: '0 -16px' }}>

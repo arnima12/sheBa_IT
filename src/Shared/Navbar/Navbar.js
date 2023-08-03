@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import logo from "../../assets/logo.png";
 import { AuthContext } from '../../context/AuthProvider/AuthProvider';
+import { BsFillPersonFill } from "react-icons/bs";
 const Navbar = () => {
   const {user,logout} = useContext(AuthContext)
   const handleLogout = () => {
@@ -16,17 +17,17 @@ const menuItems = <React.Fragment>
         <li><Link to="/allCourses">Courses</Link></li>
         <li><Link to="/allVideoClasses">Video Classes</Link></li>
         <li><Link to="/allJobPreparation">Job Preparation</Link></li>
-        {/* {user?.uid?
+        {user?.uid?
           <li>
-          <Link to="/profile">My Profile</Link>
+          <Link to="/profile"><BsFillPersonFill className="text-4xl"></BsFillPersonFill></Link>
           </li>
           :
-          <></>} */}
+          <></>}
         
           
     </React.Fragment>
   return (
-    <div className="navbar flex gap-[180px] container mx-auto px-4 py-[30px] sm:px-5 md:px-10 lg:px-20 xl:px-[70px]">
+    <div className="navbar flex gap-4 md:gap-[120px] container mx-auto px-4 py-[30px] sm:px-5 md:px-10 lg:px-20 xl:px-[70px]">
       <div>
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">

@@ -20,9 +20,9 @@ const VideoClasses = () => {
             {liveClasses.slice(0, 3).map(videoClass => <VideoClass key={videoClass._id} videoClass={videoClass} />)}
            </div>
            <div className="flex justify-center mt-8">
-           <button className="flex gap-2 font-bold border-0 text-white text-[12px] px-6 py-4 rounded-lg items-center" style={{ background: 'linear-gradient(135deg, #6B73FF 0%, #000DFF 100%)'}}>
+           <button className="flex gap-2 font-bold border-0 text-white text-[12px] px-6 py-4 rounded-lg items-center" style={{ background:"linear-gradient(135deg, #92FFC0 0%, #002661 100%)",}}>
            <div>
-                See All Classes
+                See All Classes 
               </div>
               <div className="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">

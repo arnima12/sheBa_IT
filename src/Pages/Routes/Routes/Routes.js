@@ -44,7 +44,7 @@ const router = createBrowserRouter([
             element: <ResetPassword/>
         },
         {
-            path: "/uiClass",
+            path: "/courses/:_id",
             element: <UiClass />
           },
           {

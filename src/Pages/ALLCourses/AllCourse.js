@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect} from 'react';
 import { Link } from 'react-router-dom';
-
 const AllCourse = ({allCourse}) => {
-    const { name, star, ratings, people, person, price,link } = allCourse;
+    const { _id,name, star, ratings, people, person, price,link } = allCourse;
+    useEffect(() => {
+        fetch('http://localhost:5000/courses')
+          .then(response => response.json())
+          .then(data => console.log(data))
+           },[])
     return (
         <div className="shadow-2xl h-[350px] rounded-2xl ">
             
@@ -22,7 +26,9 @@ const AllCourse = ({allCourse}) => {
             </div>
             <p className="font-normal text-xs">By <span className="underline">{person}</span></p>
             <p className="mt-8 text-3xl font-semibold">{price} BDT</p>
-            <button><Link to={link}>View</Link></button>
+            <Link to={`/courses/${_id}`}>
+          <button className="bg-white">View Course</button>
+        </Link>
             </div>
         </div>
     );
