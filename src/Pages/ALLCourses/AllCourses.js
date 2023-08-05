@@ -1,11 +1,12 @@
 
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import { AuthContext } from '../../context/AuthProvider/AuthProvider';
 
-const Allvideoss = () => {
+const AllCourses = () => {
   const [videos, setvideos] = useState([]);
-
+  const {user} = useContext(AuthContext)
   useEffect(() => {
     fetchvideos();
   }, []);
@@ -37,9 +38,19 @@ const Allvideoss = () => {
             </div>
             <p className="font-normal text-xs">By <span className="underline"> {videos.person}</span></p>
             <p className="mt-8 text-3xl font-semibold">{videos.price} BDT</p>
-            <Link to={`/videos/${videos._id}`}>
-              <button className="text-white px-4 py-2 rounded-lg" style={{ background: 'linear-gradient(135deg, #92FFC0 0%, #002661 100%)', color: "white" }}>View videos</button>
+            
+            {user?.uid ?
+            <>
+                
+                <Link to={`/videos/${videos._id}`}>
+
+              <button className="text-white px-4 py-2 rounded-lg" style={{ background: 'linear-gradient(135deg, #92FFC0 0%, #002661 100%)', color: "white" }}>View details</button>
             </Link>
+            </>
+            :
+            <Link to="/signIn"><button className="text-white px-4 py-2 text-[14px] font-normal rounded-lg" style={{ backgroundColor: "rgba(31, 84, 117, 1)" }}>
+            View Details
+          </button></Link>}
           </div>
         </div>
       ))}
@@ -47,4 +58,4 @@ const Allvideoss = () => {
   );
 };
 
-export default Allvideoss;
+export default AllCourses;

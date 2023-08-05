@@ -16,23 +16,23 @@ const Services = () => {
             <p className="text-center w-[420px]">Expert instructors, interactive learning, comprehensive curriculum, job preparation, accessible anytime, anywhere.</p>
             </div>
             <div className="zigzag-section">
-            <div className="card">
+            <div className="card star">
                 <img src={course} alt="star"/>
                 <p className="mx-10 my-4 font-bold">Comprehensive courses by industry experts</p>
             </div>
-            <div className="card">
+            <div className="card star">
                 <img src={live} alt="star"/>
                 <p className="mx-10 my-4 font-bold">Live classes with personalized attention</p>
             </div>
-            <div className="card">
+            <div className="card star">
                 <img src={job} alt="star"/>
                 <p className="mx-10 my-4 font-bold">Job preparation with career guidance</p>
             </div>
-            <div className="card">
+            <div className="card star">
                 <img src={device} alt="star"/>
                 <p className="mx-10 my-4 font-bold">Accessible on any device, anytime</p>
             </div>
-            <div className="card">
+            <div className="card star">
                 <img src={certificate} alt="star"/>
                 <p className="mx-10 my-4 font-bold">Certificate of completion for each course</p>
             </div>
