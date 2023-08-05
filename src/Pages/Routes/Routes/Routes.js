@@ -9,6 +9,7 @@ import UiClass from "../../ALLCourses/UiClass/UiClass";
 import ResetPassword from "../../SignIn/ResetPassword";
 import Profile from "../../Profile/Profile";
 import AllVideoClasses from "../../AllVideoClasses/AllVideoClasses";
+// import Video from "../../AllVideoClasses/video";
 
 const router = createBrowserRouter([
 {
@@ -27,6 +28,11 @@ const router = createBrowserRouter([
             path: '/allVideoClasses',
             element: <AllVideoClasses />
         },
+      
+        // {
+        //     path: "/vdo",
+        //     element: <Video/>
+        //   },
         {
             path: '/allJobPreparation',
             element: <AllJobPreparation />
@@ -44,10 +50,11 @@ const router = createBrowserRouter([
             element: <ResetPassword/>
         },
         {
-            path: "/courses/:_id",
+            path: "/videos/:id",
             element: <UiClass />
           },
           {
+            
             path: "/profile",
             element: <Profile />
           }

@@ -2,11 +2,12 @@ import React, { useEffect, useState } from 'react';
 import Course from './Course';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
 AOS.init();
 const Courses = () => {
   const [courses,setCourses] = useState([]);
   useEffect(() => {
-    fetch('http://localhost:5000/courses')
+    fetch('http://localhost:5000/videos')
       .then(response => response.json())
       .then(data => setCourses(data))
        },[])
@@ -19,6 +20,7 @@ const Courses = () => {
            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
             {courses.slice(0, 3).map(course => <Course key={course._id} course={course} />)}
            </div>
+           <Link to ="allCourses">
            <div className="flex justify-center mt-8">
            <button className="flex gap-2 font-bold border-0 text-white text-[12px] px-6 py-4 rounded-lg items-center" style={{ background: 'linear-gradient(135deg, #92FFC0 0%, #002661 100%)'}}>
            <div>
@@ -31,6 +33,8 @@ const Courses = () => {
               </div>
            </button>
            </div>
+           </Link>
+        
             </div>
     );
 };

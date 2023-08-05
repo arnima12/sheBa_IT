@@ -1,5 +1,4 @@
 [{
-    "_id": 1,
     "name": "UI/UX Masterclass",
     "ratings": "4.9",
     "star":"\u2605\u2605\u2605\u2605\u2605",
@@ -7,8 +6,9 @@
     "person": "Joe Ray",
     "price": "7000",
     "link": "/uiClass",
-    "Course Description": "Master the art of user interface (UI) and user experience (UX) design to create intuitive and user-friendly digital products.",
-    "Course Outline": {
+    "video": "",
+    "Course_description": "Master the art of user interface (UI) and user experience (UX) design to create intuitive and user-friendly digital products.",
+    "Course_outline": {
         "a": "Introduction to UI/UX design and its significance",
         "b": "Conducting user research and defining user personas",
         "c": "Wireframing and prototyping digital interfaces",
@@ -16,11 +16,10 @@
         "e": "Visual design principles for UI elements"
         
       },
-      "Content Preview": "In this course, you will delve into the world of UI/UX design for digital products. You will learn the importance of understanding  users through user research and defining user personas. Additionally, you will explore wireframing and prototyping digital interfaces to ensure optimal user experiences. The course will cover designing responsive and mobile-friendly layouts, applying visual design principles to UI elements, and conducting usability testing to validate design decisions. Moreover, you will learn to iterate designs based on user feedback to create intuitive and user-friendly digital products."
+      "Content_Preview": "In this course, you will delve into the world of UI/UX design for digital products. You will learn the importance of understanding  users through user research and defining user personas. Additionally, you will explore wireframing and prototyping digital interfaces to ensure optimal user experiences. The course will cover designing responsive and mobile-friendly layouts, applying visual design principles to UI elements, and conducting usability testing to validate design decisions. Moreover, you will learn to iterate designs based on user feedback to create intuitive and user-friendly digital products."
     
 },
 {
-    "_id": 2,
     "name": "Digital Marketing",
     "ratings": "4.9",
     "star": "\u2605\u2605\u2605\u2605\u2605",
@@ -28,8 +27,9 @@
     "person": "Afsan Sheikh",
     "price": "5000",
     "link": "/digitalMarketing",
-    "Course Description": "Learn the core principles and strategies of digital marketing to promote products and services effectively in the online landscape.",
-    "Course Outline": {
+    "video":"https://www.youtube.com/watch?v=zHAa-m16NGk&pp=ygUxSW50cm9kdWN0aW9uIHRvIFVJL1VYIGRlc2lnbiBhbmQgaXRzIHNpZ25pZmljYW5jZQ%3D%3D",
+    "Course_description": "Learn the core principles and strategies of digital marketing to promote products and services effectively in the online landscape.",
+    "Course_outline": {
         "a": "Introduction to UI/UX design and its significance",
         "b": "Conducting user research and defining user personas",
         "c": "Wireframing and prototyping digital interfaces",
@@ -37,20 +37,21 @@
         "e": "Visual design principles for UI elements"
         
       },
-      "Content Preview": "In this course, you will delve into the world of UI/UX design for digital products. You will learn the importance of understanding  users through user research and defining user personas. Additionally, you will explore wireframing and prototyping digital interfaces to ensure optimal user experiences. The course will cover designing responsive and mobile-friendly layouts, applying visual design principles to UI elements, and conducting usability testing to validate design decisions. Moreover, you will learn to iterate designs based on user feedback to create intuitive and user-friendly digital products."
+      "Content_Preview": "In this course, you will delve into the world of UI/UX design for digital products. You will learn the importance of understanding  users through user research and defining user personas. Additionally, you will explore wireframing and prototyping digital interfaces to ensure optimal user experiences. The course will cover designing responsive and mobile-friendly layouts, applying visual design principles to UI elements, and conducting usability testing to validate design decisions. Moreover, you will learn to iterate designs based on user feedback to create intuitive and user-friendly digital products."
 },
 
 {
-    "_id": 3,
     "name": "Web Design",
     "ratings": "4.9",
     "star": "\u2605\u2605\u2605\u2605\u2605",
     "people":"12456",
     "person": "Jafar Ali",
     "price": "9000",
+    "video": "",
+
     "link": "/webDesign",
-    "Course Description": "Learn the core principles and strategies of digital marketing to promote products and services effectively in the online landscape.",
-    "Course Outline": {
+    "Course_description": "Learn the core principles and strategies of digital marketing to promote products and services effectively in the online landscape.",
+    "Course_outline": {
         "a": "Introduction to UI/UX design and its significance",
         "b": "Conducting user research and defining user personas",
         "c": "Wireframing and prototyping digital interfaces",
@@ -58,10 +59,9 @@
         "e": "Visual design principles for UI elements"
         
       },
-      "Content Preview": "In this course, you will delve into the world of UI/UX design for digital products. You will learn the importance of understanding  users through user research and defining user personas. Additionally, you will explore wireframing and prototyping digital interfaces to ensure optimal user experiences. The course will cover designing responsive and mobile-friendly layouts, applying visual design principles to UI elements, and conducting usability testing to validate design decisions. Moreover, you will learn to iterate designs based on user feedback to create intuitive and user-friendly digital products."
+      "Content_Preview": "In this course, you will delve into the world of UI/UX design for digital products. You will learn the importance of understanding  users through user research and defining user personas. Additionally, you will explore wireframing and prototyping digital interfaces to ensure optimal user experiences. The course will cover designing responsive and mobile-friendly layouts, applying visual design principles to UI elements, and conducting usability testing to validate design decisions. Moreover, you will learn to iterate designs based on user feedback to create intuitive and user-friendly digital products."
 },
 {
-    "_id": 4,
     "name": "Graphics",
     "ratings": "4.9",
     "star": "\u2605\u2605\u2605\u2605\u2605",
@@ -69,8 +69,10 @@
     "person": "Jarif Khan",
     "price": "8000",
     "link": "/graphics",
-    "Course Description": "Learn the core principles and strategies of digital marketing to promote products and services effectively in the online landscape.",
-    "Course Outline": {
+    "video": "",
+
+    "Course_description": "Learn the core principles and strategies of digital marketing to promote products and services effectively in the online landscape.",
+    "Course_outline": {
         "a": "Introduction to UI/UX design and its significance",
         "b": "Conducting user research and defining user personas",
         "c": "Wireframing and prototyping digital interfaces",
@@ -78,19 +80,18 @@
         "e": "Visual design principles for UI elements"
         
       },
-      "Content Preview": "In this course, you will delve into the world of UI/UX design for digital products. You will learn the importance of understanding  users through user research and defining user personas. Additionally, you will explore wireframing and prototyping digital interfaces to ensure optimal user experiences. The course will cover designing responsive and mobile-friendly layouts, applying visual design principles to UI elements, and conducting usability testing to validate design decisions. Moreover, you will learn to iterate designs based on user feedback to create intuitive and user-friendly digital products."
+      "Content_Preview": "In this course, you will delve into the world of UI/UX design for digital products. You will learn the importance of understanding  users through user research and defining user personas. Additionally, you will explore wireframing and prototyping digital interfaces to ensure optimal user experiences. The course will cover designing responsive and mobile-friendly layouts, applying visual design principles to UI elements, and conducting usability testing to validate design decisions. Moreover, you will learn to iterate designs based on user feedback to create intuitive and user-friendly digital products."
 },
 {
-    "_id": 5,
-    "name": "Information Technology",
-    "ratings": "4.9",
     "star": "\u2605\u2605\u2605\u2605\u2605",
     "people":"12456",
     "person": "Amir Ali",
     "price": "10000",
     "link": "/informationtechnology",
-    "Course Description": "Learn the core principles and strategies of digital marketing to promote products and services effectively in the online landscape.",
-    "Course Outline": {
+    "video": "",
+
+    "Course_description": "Learn the core principles and strategies of digital marketing to promote products and services effectively in the online landscape.",
+    "Course_outline": {
         "a": "Introduction to UI/UX design and its significance",
         "b": "Conducting user research and defining user personas",
         "c": "Wireframing and prototyping digital interfaces",
@@ -98,19 +99,20 @@
         "e": "Visual design principles for UI elements"
         
       },
-      "Content Preview": "In this course, you will delve into the world of UI/UX design for digital products. You will learn the importance of understanding  users through user research and defining user personas. Additionally, you will explore wireframing and prototyping digital interfaces to ensure optimal user experiences. The course will cover designing responsive and mobile-friendly layouts, applying visual design principles to UI elements, and conducting usability testing to validate design decisions. Moreover, you will learn to iterate designs based on user feedback to create intuitive and user-friendly digital products."
+      "Content_Preview": "In this course, you will delve into the world of UI/UX design for digital products. You will learn the importance of understanding  users through user research and defining user personas. Additionally, you will explore wireframing and prototyping digital interfaces to ensure optimal user experiences. The course will cover designing responsive and mobile-friendly layouts, applying visual design principles to UI elements, and conducting usability testing to validate design decisions. Moreover, you will learn to iterate designs based on user feedback to create intuitive and user-friendly digital products."
 },
 {
-    "_id": 6,
     "name": "Programming",
     "ratings": "4.9",
     "star": "\u2605\u2605\u2605\u2605\u2605",
     "people":"12456",
     "person": "Sheikh Hamid",
+    "video": "",
+
     "price": "15000",
     "link": "/programming",
-    "Course Description": "Learn the core principles and strategies of digital marketing to promote products and services effectively in the online landscape.",
-    "Course Outline": {
+    "Course_description": "Learn the core principles and strategies of digital marketing to promote products and services effectively in the online landscape.",
+    "Course_outline": {
         "a": "Introduction to UI/UX design and its significance",
         "b": "Conducting user research and defining user personas",
         "c": "Wireframing and prototyping digital interfaces",
@@ -118,19 +120,20 @@
         "e": "Visual design principles for UI elements"
         
       },
-      "Content Preview": "In this course, you will delve into the world of UI/UX design for digital products. You will learn the importance of understanding  users through user research and defining user personas. Additionally, you will explore wireframing and prototyping digital interfaces to ensure optimal user experiences. The course will cover designing responsive and mobile-friendly layouts, applying visual design principles to UI elements, and conducting usability testing to validate design decisions. Moreover, you will learn to iterate designs based on user feedback to create intuitive and user-friendly digital products."
+      "Content_Preview": "In this course, you will delve into the world of UI/UX design for digital products. You will learn the importance of understanding  users through user research and defining user personas. Additionally, you will explore wireframing and prototyping digital interfaces to ensure optimal user experiences. The course will cover designing responsive and mobile-friendly layouts, applying visual design principles to UI elements, and conducting usability testing to validate design decisions. Moreover, you will learn to iterate designs based on user feedback to create intuitive and user-friendly digital products."
 },
 {
-    "_id": 7,
     "name": "Artificial Intelligence",
     "ratings": "4.9",
     "star": "\u2605\u2605\u2605\u2605\u2605",
     "people":"12456",
     "person": "Saiful Islam",
+    "video": "",
+
     "price": "12000",
     "link": "/artificialIntelligence",
-    "Course Description": "Learn the core principles and strategies of digital marketing to promote products and services effectively in the online landscape.",
-    "Course Outline": {
+    "Course_description": "Learn the core principles and strategies of digital marketing to promote products and services effectively in the online landscape.",
+    "Course_outline": {
         "a": "Introduction to UI/UX design and its significance",
         "b": "Conducting user research and defining user personas",
         "c": "Wireframing and prototyping digital interfaces",
@@ -138,19 +141,20 @@
         "e": "Visual design principles for UI elements"
         
       },
-      "Content Preview": "In this course, you will delve into the world of UI/UX design for digital products. You will learn the importance of understanding  users through user research and defining user personas. Additionally, you will explore wireframing and prototyping digital interfaces to ensure optimal user experiences. The course will cover designing responsive and mobile-friendly layouts, applying visual design principles to UI elements, and conducting usability testing to validate design decisions. Moreover, you will learn to iterate designs based on user feedback to create intuitive and user-friendly digital products."
+      "Content_Preview": "In this course, you will delve into the world of UI/UX design for digital products. You will learn the importance of understanding  users through user research and defining user personas. Additionally, you will explore wireframing and prototyping digital interfaces to ensure optimal user experiences. The course will cover designing responsive and mobile-friendly layouts, applying visual design principles to UI elements, and conducting usability testing to validate design decisions. Moreover, you will learn to iterate designs based on user feedback to create intuitive and user-friendly digital products."
 },
 {
-    "_id": 8,
     "name": "Network Security",
     "ratings": "4.9",
     "star": "\u2605\u2605\u2605\u2605\u2605",
     "people":"12456",
     "person": "Moinul Hasan",
     "price": "14000",
+    "video": "",
+
     "link": "/networksecurity",
-    "Course Description": "Learn the core principles and strategies of digital marketing to promote products and services effectively in the online landscape.",
-    "Course Outline": {
+    "Course_description": "Learn the core principles and strategies of digital marketing to promote products and services effectively in the online landscape.",
+    "Course_outline": {
         "a": "Introduction to UI/UX design and its significance",
         "b": "Conducting user research and defining user personas",
         "c": "Wireframing and prototyping digital interfaces",
@@ -158,19 +162,27 @@
         "e": "Visual design principles for UI elements"
         
       },
-      "Content Preview": "In this course, you will delve into the world of UI/UX design for digital products. You will learn the importance of understanding  users through user research and defining user personas. Additionally, you will explore wireframing and prototyping digital interfaces to ensure optimal user experiences. The course will cover designing responsive and mobile-friendly layouts, applying visual design principles to UI elements, and conducting usability testing to validate design decisions. Moreover, you will learn to iterate designs based on user feedback to create intuitive and user-friendly digital products."
+      "Content_Preview": "In this course, you will delve into the world of UI/UX design for digital products. You will learn the importance of understanding  users through user research and defining user personas. Additionally, you will explore wireframing and prototyping digital interfaces to ensure optimal user experiences. The course will cover designing responsive and mobile-friendly layouts, applying visual design principles to UI elements, and conducting usability testing to validate design decisions. Moreover, you will learn to iterate designs based on user feedback to create intuitive and user-friendly digital products."
 },
 {
-    "_id": 9,
     "name": "Cyber Security Fundamentals",
     "ratings": "4.9",
     "star": "\u2605\u2605\u2605\u2605\u2605",
     "people":"12456",
     "person": "John",
     "price": "9500",
+    "videos": [
+      "Machine Learning in Bangla - Model Development for Machine Learning- Sabber Ahamed - SRCBD -.mp4",
+      "Machine Learning in Bangla - মেশিন লার্নিং কিভাবে শেখা শুরু করতে পারেন- Sabber Ahamed - SRCBD -.mp4",
+      "Machine Learning in Bangla - Data PreProcessing- Sabber Ahamed - SRCBD -.mp4",
+      "Machine Learning in Bangla - Correlation and Feature selections- Sabber Ahamed - SRCBD -.mp4",
+      "Machine Learning in Bangla - Categorical Data Processing - Encoding Tech- Sabber Ahamed - SRCBD -.mp4",
+      "Machine Learning in Bangla - Feature Engineering for Machine Learning"
+    ],
+
     "link": "/cybersecurityfundamentals",
-    "Course Description": "Learn the core principles and strategies of digital marketing to promote products and services effectively in the online landscape.",
-    "Course Outline": {
+    "Course_description": "Learn the core principles and strategies of digital marketing to promote products and services effectively in the online landscape.",
+    "Course_outline": {
         "a": "Introduction to UI/UX design and its significance",
         "b": "Conducting user research and defining user personas",
         "c": "Wireframing and prototyping digital interfaces",
@@ -178,6 +190,6 @@
         "e": "Visual design principles for UI elements"
         
       },
-      "Content Preview": "In this course, you will delve into the world of UI/UX design for digital products. You will learn the importance of understanding  users through user research and defining user personas. Additionally, you will explore wireframing and prototyping digital interfaces to ensure optimal user experiences. The course will cover designing responsive and mobile-friendly layouts, applying visual design principles to UI elements, and conducting usability testing to validate design decisions. Moreover, you will learn to iterate designs based on user feedback to create intuitive and user-friendly digital products."
+      "Content_Preview": "In this course, you will delve into the world of UI/UX design for digital products. You will learn the importance of understanding  users through user research and defining user personas. Additionally, you will explore wireframing and prototyping digital interfaces to ensure optimal user experiences. The course will cover designing responsive and mobile-friendly layouts, applying visual design principles to UI elements, and conducting usability testing to validate design decisions. Moreover, you will learn to iterate designs based on user feedback to create intuitive and user-friendly digital products."
 }
 ]

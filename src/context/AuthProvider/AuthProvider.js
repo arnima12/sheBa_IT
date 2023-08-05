@@ -1,9 +1,13 @@
 import React, { createContext, useEffect, useState } from 'react';
 import app from '../../firebase/firebase.config';
+
 import { GoogleAuthProvider, createUserWithEmailAndPassword, getAuth, onAuthStateChanged, sendEmailVerification, sendPasswordResetEmail, signInWithEmailAndPassword, signOut, updateProfile } from 'firebase/auth';
 export const  AuthContext = createContext();
+
 const auth = getAuth(app);
+
 const AuthProvider = ({children}) => {
+
     const [user,setUser] = useState(null);
     const [loading,setLoading] = useState(true);
     const provider = new GoogleAuthProvider();
@@ -27,9 +31,11 @@ const verifyEmail = () => {
       console.log("email verification sent")
     });
   }
+
 const logout = () =>{
     return signOut(auth)
 }
+
 useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, currentUser => {
         console.log("user observing");
@@ -38,6 +44,8 @@ useEffect(() => {
     });
     return () => unsubscribe();
 }, [])
+
+
     const authInfo = {
         createUser,
         updateUser,
