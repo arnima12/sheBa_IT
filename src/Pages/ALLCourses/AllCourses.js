@@ -21,7 +21,7 @@ const AllCourses = () => {
   };
 
   return (
-    <div className="grid grid-cols-3 gap-4">
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
       {videos.map((videos) => (
         <div key={videos._id} className="shadow-2xl h-[350px] rounded-2xl">
           <div className="flex justify-end mr-4 mt-4 ">
