@@ -7,7 +7,7 @@ AOS.init();
 const VideoClasses = () => {
     const [liveClasses,setLiveClasses] = useState([]);
   useEffect(() => {
-    fetch('http://localhost:5000/liveClasses')
+    fetch('https://sheba-it-server-0876.onrender.com/liveClasses')
       .then(response => response.json())
       .then(data => setLiveClasses(data))
        },[])

@@ -55,7 +55,7 @@ const SignUp = () => {
   }
   const storeUser = (fullName, phoneNumber,email,password,address) =>{
     const user ={fullName, phoneNumber,email,password,address};
-    fetch('http://localhost:5000/signup', {
+    fetch('https://sheba-it-server-0876.onrender.com/signup', {
         method: 'POST',
         headers: {
             'content-type': 'application/json'

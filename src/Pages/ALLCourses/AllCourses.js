@@ -13,7 +13,7 @@ const AllCourses = () => {
 
   const fetchvideos = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/videos'); // Assuming your backend API is accessible at /videoss
+      const response = await axios.get('https://sheba-it-server-0876.onrender.com/videos'); // Assuming your backend API is accessible at /videoss
       setvideos(response.data);
     } catch (error) {
       console.error('Error fetching videoss:', error);

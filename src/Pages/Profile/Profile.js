@@ -17,7 +17,7 @@ console.log(user)
 //   // Fetch the user's profile data after the component mounts
 //   const fetchProfileData = async () => {
 //     try {
-//       const response = await fetch(`http://localhost:5000/signup/${user.id}`);
+//       const response = await fetch(`https://sheba-it-server-0876.onrender.com/signup/${user.id}`);
 //       if (response.ok) {
 //         const data = await response.json();
 //         setProfileData(data);

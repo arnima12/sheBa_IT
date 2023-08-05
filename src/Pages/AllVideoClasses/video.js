@@ -35,7 +35,7 @@
 // //     formData.append('video', videoFile);
    
 
-// //     fetch('http://localhost:5000/videos', {
+// //     fetch('https://sheba-it-server-0876.onrender.com/videos', {
 // //       method: 'POST',
 // //       body: formData,
 // //     })
@@ -107,7 +107,7 @@
 //       formData.append('videos', videoFiles[i]);
 //     }
 
-//     fetch('http://localhost:5000/videos', {
+//     fetch('https://sheba-it-server-0876.onrender.com/videos', {
 //       method: 'POST',
 //       body: formData,
 //     })
@@ -125,8 +125,6 @@
 //     <div>
 //       <h2>Upload Videos</h2>
 //       <form onSubmit={handleSubmit}>
-//         <label htmlFor="title">Title:</label>
-//         <input type="text" id="name" name="name" value={name} onChange={handleTitleChange} required />
 
 //         {/* Update file input to accept multiple videos */}
 //         <label htmlFor="videos">Choose video files:</label>

@@ -7,7 +7,7 @@ AOS.init();
 const Courses = () => {
   const [courses,setCourses] = useState([]);
   useEffect(() => {
-    fetch('http://localhost:5000/videos')
+    fetch('https://sheba-it-server-0876.onrender.com/videos')
       .then(response => response.json())
       .then(data => setCourses(data))
        },[])

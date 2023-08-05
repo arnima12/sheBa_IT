@@ -20,7 +20,7 @@ const UiClass = () => {
   };
   useEffect(() => {
     // Fetch the list of videos from the backend
-    axios.get(`http://localhost:5000/videos/${id}`)
+    axios.get(`https://sheba-it-server-0876.onrender.com/videos/${id}`)
       .then((response) => {
         setVideos(response.data);
       })
@@ -35,7 +35,7 @@ const UiClass = () => {
 
   // const fetchCourseDetails = async () => {
   //   try {
-  //     const response = await axios.get(`http://localhost:5000/videos/${id}`);
+  //     const response = await axios.get(`https://sheba-it-server-0876.onrender.com/videos/${id}`);
   //     setCourse(response.data);
   //   } catch (error) {
   //     console.error('Error fetching course details:', error);
@@ -179,7 +179,7 @@ const UiClass = () => {
               {showDropdown && (
                 <div key={videos._id} className="w-1/4 p-2">
                   <ReactPlayer
-                    url={`http://localhost:5000/videos/${videos.video}`}
+                    url={`https://sheba-it-server-0876.onrender.com/videos/${videos.videos}`}
                     controls
                     width="100%"
                     height="auto"
@@ -217,7 +217,7 @@ const UiClass = () => {
                 {showDropdown && (
                   <div key={videos._id} className="w-1/4 p-2">
                     <ReactPlayer
-                      url={`http://localhost:5000/videos/${videos.video}`}
+                      url={`https://sheba-it-server-0876.onrender.com/videos/${videos.video}`}
                       controls
                       width="100%"
                       height="auto"
@@ -235,13 +235,13 @@ const UiClass = () => {
 
       {/* <div key={videos._id} className="w-1/4 p-2">
         <ReactPlayer
-          url={`http://localhost:5000/videos/${videos.video}`}
+          url={`https://sheba-it-server-0876.onrender.com/videos/${videos.video}`}
           controls
           width="100%"
           height="auto"
         />
         <a
-          href={`http://localhost:5000/videos/${videos.video}`}
+          href={`https://sheba-it-server-0876.onrender.com/videos/${videos.video}`}
           download
           className="btn mt-2"
         >
